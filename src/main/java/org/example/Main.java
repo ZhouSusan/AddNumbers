@@ -14,6 +14,7 @@ class AddNumbers {
             c = a + b;
 
             System.out.println("The sum of " + a + " + " + b + " = " + c);
+            input.close();
         } catch( Exception e) {
             System.out.println("Sorry, this is not an integer. Please try again and enter two integers.");
         }
